@@ -12,6 +12,21 @@
 		746AD16C20BC382700D6B65A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746AD16A20BC382700D6B65A /* Main.storyboard */; };
 		746AD16E20BC382E00D6B65A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746AD16D20BC382E00D6B65A /* Assets.xcassets */; };
 		746AD17120BC382E00D6B65A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746AD16F20BC382E00D6B65A /* LaunchScreen.storyboard */; };
+		746AD17920BC38B200D6B65A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD17820BC38B200D6B65A /* UIColorExtension.swift */; };
+		746AD17B20BC38E600D6B65A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD17A20BC38E600D6B65A /* Helper.swift */; };
+		746AD17D20BC390200D6B65A /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD17C20BC390200D6B65A /* Properties.swift */; };
+		746AD17F20BC391E00D6B65A /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD17E20BC391E00D6B65A /* Direction.swift */; };
+		746AD18120BC394E00D6B65A /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD18020BC394E00D6B65A /* Note.swift */; };
+		746AD18320BC399C00D6B65A /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD18220BC399C00D6B65A /* Tile.swift */; };
+		746AD18520BC39D300D6B65A /* Bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD18420BC39D300D6B65A /* Bot.swift */; };
+		746AD18720BC3A0300D6B65A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD18620BC3A0300D6B65A /* UIViewExtension.swift */; };
+		746AD18920BC3ABB00D6B65A /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD18820BC3ABB00D6B65A /* CGPointExtension.swift */; };
+		746AD18B20BC3B1B00D6B65A /* TouchHelperActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD18A20BC3B1B00D6B65A /* TouchHelperActions.swift */; };
+		746AD18D20BC3B3600D6B65A /* TileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD18C20BC3B3600D6B65A /* TileCollectionViewCell.swift */; };
+		746AD18F20BC3B6200D6B65A /* CollectionViewHelperActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD18E20BC3B6200D6B65A /* CollectionViewHelperActions.swift */; };
+		746AD19120BC3B9200D6B65A /* MenuHelperActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD19020BC3B9200D6B65A /* MenuHelperActions.swift */; };
+		746AD19320BC3CE800D6B65A /* NotesHelperActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746AD19220BC3CE800D6B65A /* NotesHelperActions.swift */; };
+		746AD19520BC3D9A00D6B65A /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 746AD19420BC3D9A00D6B65A /* notes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,21 @@
 		746AD16D20BC382E00D6B65A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		746AD17020BC382E00D6B65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		746AD17220BC382E00D6B65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746AD17820BC38B200D6B65A /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		746AD17A20BC38E600D6B65A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		746AD17C20BC390200D6B65A /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		746AD17E20BC391E00D6B65A /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		746AD18020BC394E00D6B65A /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		746AD18220BC399C00D6B65A /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		746AD18420BC39D300D6B65A /* Bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bot.swift; sourceTree = "<group>"; };
+		746AD18620BC3A0300D6B65A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		746AD18820BC3ABB00D6B65A /* CGPointExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
+		746AD18A20BC3B1B00D6B65A /* TouchHelperActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchHelperActions.swift; sourceTree = "<group>"; };
+		746AD18C20BC3B3600D6B65A /* TileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCollectionViewCell.swift; sourceTree = "<group>"; };
+		746AD18E20BC3B6200D6B65A /* CollectionViewHelperActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHelperActions.swift; sourceTree = "<group>"; };
+		746AD19020BC3B9200D6B65A /* MenuHelperActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHelperActions.swift; sourceTree = "<group>"; };
+		746AD19220BC3CE800D6B65A /* NotesHelperActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesHelperActions.swift; sourceTree = "<group>"; };
+		746AD19420BC3D9A00D6B65A /* notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +84,23 @@
 		746AD16520BC382700D6B65A /* KeyGrids */ = {
 			isa = PBXGroup;
 			children = (
+				746AD19420BC3D9A00D6B65A /* notes.txt */,
 				746AD16620BC382700D6B65A /* AppDelegate.swift */,
+				746AD17A20BC38E600D6B65A /* Helper.swift */,
+				746AD17820BC38B200D6B65A /* UIColorExtension.swift */,
+				746AD18620BC3A0300D6B65A /* UIViewExtension.swift */,
+				746AD18820BC3ABB00D6B65A /* CGPointExtension.swift */,
+				746AD17E20BC391E00D6B65A /* Direction.swift */,
+				746AD18020BC394E00D6B65A /* Note.swift */,
+				746AD17C20BC390200D6B65A /* Properties.swift */,
+				746AD18220BC399C00D6B65A /* Tile.swift */,
+				746AD18420BC39D300D6B65A /* Bot.swift */,
+				746AD18C20BC3B3600D6B65A /* TileCollectionViewCell.swift */,
+				746AD19220BC3CE800D6B65A /* NotesHelperActions.swift */,
 				746AD16820BC382700D6B65A /* ViewController.swift */,
+				746AD18A20BC3B1B00D6B65A /* TouchHelperActions.swift */,
+				746AD18E20BC3B6200D6B65A /* CollectionViewHelperActions.swift */,
+				746AD19020BC3B9200D6B65A /* MenuHelperActions.swift */,
 				746AD16A20BC382700D6B65A /* Main.storyboard */,
 				746AD16D20BC382E00D6B65A /* Assets.xcassets */,
 				746AD16F20BC382E00D6B65A /* LaunchScreen.storyboard */,
@@ -122,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746AD19520BC3D9A00D6B65A /* notes.txt in Resources */,
 				746AD17120BC382E00D6B65A /* LaunchScreen.storyboard in Resources */,
 				746AD16E20BC382E00D6B65A /* Assets.xcassets in Resources */,
 				746AD16C20BC382700D6B65A /* Main.storyboard in Resources */,
@@ -135,8 +181,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746AD18720BC3A0300D6B65A /* UIViewExtension.swift in Sources */,
+				746AD18D20BC3B3600D6B65A /* TileCollectionViewCell.swift in Sources */,
+				746AD18520BC39D300D6B65A /* Bot.swift in Sources */,
 				746AD16920BC382700D6B65A /* ViewController.swift in Sources */,
+				746AD18B20BC3B1B00D6B65A /* TouchHelperActions.swift in Sources */,
 				746AD16720BC382700D6B65A /* AppDelegate.swift in Sources */,
+				746AD18F20BC3B6200D6B65A /* CollectionViewHelperActions.swift in Sources */,
+				746AD18120BC394E00D6B65A /* Note.swift in Sources */,
+				746AD18320BC399C00D6B65A /* Tile.swift in Sources */,
+				746AD17920BC38B200D6B65A /* UIColorExtension.swift in Sources */,
+				746AD17D20BC390200D6B65A /* Properties.swift in Sources */,
+				746AD17B20BC38E600D6B65A /* Helper.swift in Sources */,
+				746AD17F20BC391E00D6B65A /* Direction.swift in Sources */,
+				746AD19320BC3CE800D6B65A /* NotesHelperActions.swift in Sources */,
+				746AD19120BC3B9200D6B65A /* MenuHelperActions.swift in Sources */,
+				746AD18920BC3ABB00D6B65A /* CGPointExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -283,6 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86R4D6VBCN;
 				INFOPLIST_FILE = KeyGrids/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86R4D6VBCN;
 				INFOPLIST_FILE = KeyGrids/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
